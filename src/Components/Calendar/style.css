@@ -1,0 +1,175 @@
+.calendar {
+  width: 1372px;
+  height: 67px;
+  margin: auto;
+  padding-top: 2rem;
+  font-family: "Nunito";
+}
+.date-row {
+  display: flex;
+  justify-content: space-between;
+}
+.date {
+  display: flex;
+  gap: 3rem;
+}
+.month-date {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+.today {
+  display: flex;
+  gap: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+}
+
+.add-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 13px 33px;
+  /* width: 171px;
+  height: 45px; */
+  background: #5364ff;
+  border-radius: 100px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+  color: #ffffff;
+}
+
+.calendar-table {
+  border-collapse: collapse;
+  padding: 0;
+  margin: 0;
+}
+
+.calendar-table th {
+  /* width: 15rem; */
+  height: 3rem;
+}
+
+.calendar-table td {
+  width: 15rem;
+  height: 2.5rem;
+  border: 1px solid #dcdcdd;
+}
+.calendar-table tr {
+}
+
+.heading-cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.week {
+  padding-bottom: 0.5rem;
+}
+
+.date-blue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active-date {
+  color: white;
+  background: #5364ff;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.time-column {
+  font-size: 10px;
+  line-height: 120%;
+  color: #aaaaaa;
+  width: 1rem !important;
+  border: 1px solid #dcdcdd !important;
+  border-left: 0px !important;
+}
+.time {
+  background-color: white !important;
+  width: 40px;
+  position: relative;
+  left: 3px;
+  top: -21px;
+  z-index: 2;
+}
+.highlight-cell {
+  width: 90%;
+  height: 100%;
+}
+.red {
+  background-color: #f8ebf1;
+}
+.blue {
+  background-color: #e9e8fd;
+}
+.yellow {
+  background-color: #fffbda;
+}
+.green {
+  background-color: #cffff1;
+}
+.period {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 120%;
+}
+.period-input {
+  padding-left: 1rem;
+}
+.duration {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 120%;
+}
+
+.divider {
+}
+.divider td {
+  border: 1px solid #dcdcdd !important;
+  border-top: 0px !important;
+}
+.activity-red {
+  font-size: 10px;
+  line-height: 120%;
+  color: #ffffff;
+  background: #d16d9a;
+  border-radius: 3px;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 0.3rem;
+  padding: 0.2rem;
+  padding-left: 0.5rem;
+}
+
+.activity-blue {
+  font-size: 10px;
+  line-height: 120%;
+  color: #ffffff;
+  background: #938be6;
+  border-radius: 3px;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 0.3rem;
+  padding: 0.2rem;
+  padding-left: 0.5rem;
+}
